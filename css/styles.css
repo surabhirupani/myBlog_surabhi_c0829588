@@ -16,6 +16,8 @@
   
   .container {
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
   }
   
   #header-menu {
@@ -48,22 +50,22 @@
   }
   
   .sub-topics-block {
-	float: left;
-	margin-left: 50px;
-	width: 24%;
+	margin-top: 20px;
+	margin-left: 10px;
   }
   
   .learn-more-text {
 	color: #6a6967;
-	font-size: 25px;
+	font-size: 15px;
 	font-weight: bold;
+	white-space: nowrap;
   }
   
   .sub-menu li {
 	color: #154c79;
 	text-decoration:solid;
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 13px;
 	padding-bottom: 3px;
   }
   
@@ -82,6 +84,7 @@
 	padding: 0;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
+	margin-left: 8px;
   }
   
   .subnavbtn {
@@ -92,13 +95,20 @@
 	margin: 0.3em;
 	padding: 0.4em;
 	float: left;
-	width: 31%;
+	width: 24%;
   }
   
   .subnavbtn a {
 	color: white;
 	text-decoration: none;
+	font-size: 14px;
   }
+
+
+.about-block {
+	padding-left: 10px;
+	font-size: 11px;
+}
   
   .myexperiences_table {
 	border: 0.1em solid #000000;
@@ -124,20 +134,18 @@
 	article {
 	  background-color: #154c79;
 	  float: left;
-	  padding: 0.7%;
-	  text-align: center;
-	  margin-left: 5em;
-	  margin-top: 1em;
-	  margin-bottom: 1em;
-	  width: 40%;
-	  border-radius: 20px;
+	  margin: 1%;
+	padding: 1%;
+	text-align: center;
+	width: 46%;
+	border-radius: 20px;
 	}
   
 	/* styles for teh images inside the article */
 	article img {
 	  width: 30%;
 	  height: 30%;
-	  margin-top: 1em;
+	  margin-top: 0.5em;
 	  margin-left: auto;
 	  margin-right: auto;
 	}
@@ -175,3 +183,85 @@
 	color: #ffffff;
 	text-decoration: none;
   }
+
+  .mobile-view {
+	display: inline;
+}
+
+.desktop-view {
+	display: none;
+}
+
+.subnavbtn a {
+	font-size: 14px;
+}
+
+.subnavbtn {
+	width: 24%;
+}
+
+
+/* Media Query for handling tablet view port targets screen only */
+
+@media only screen and (min-width: 685px) {
+	.subnavbtn {
+		width: 29.5%;
+	}
+
+	.mobile-view {
+		display: none;
+	}
+	/* sektop styles */
+	.desktop-view {
+		display: inline;
+	}
+	/* #header-desc {
+		margin: 75px 50px 0px 50px;
+	} */
+	.heading-text {
+		font-size: 35px;
+	}
+	.about-block {
+		padding-left: 10px;
+		float: left;
+		width: 43%;
+		font-size: 18px;
+	}
+	.learn-more-text {
+		color: #6a6967;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.sub-topics-block {
+		float: left;
+		margin-left: 50px;
+		width: 24%;
+	}
+	.learn-more-text {
+		color: #6a6967;
+		font-size: 25px;
+		font-weight: bold;
+	}
+	.sub-menu li {
+		color: #154c79;
+		text-decoration: underline;
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 3px;
+	}
+	article img {
+		margin-top: 1em;
+	}
+}
+
+
+/* Media query for handling desktop width size */
+
+@media only screen and (min-width: 860px) {
+	.subnavbtn a {
+		font-size: 20px;
+	}
+	.subnavbtn {
+		width: 31%;
+	}
+}
