@@ -1,0 +1,177 @@
+.header-block {
+	float: left;
+	width: 100%;
+	height: 110px;
+	background-color: #154c79;
+	box-shadow: 1em 1em 1em #4c4f4d;
+	margin-bottom: 1.5em;
+	color: white;
+	padding-bottom: 0.5em;
+	border-radius: 0 0 1em 1em;
+  }
+  
+  body {
+	font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .container {
+	width: 100%;
+  }
+  
+  #header-menu {
+	text-align: center;
+	margin: 30px;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: Helvetica, Arial , sans-serif;
+  }
+  
+  #header-desc {
+	text-align: center;
+	text-decoration: underline;
+  }
+  
+  .main-block {
+	float: left;
+	width: 100%;
+	margin-bottom: 30px;
+  }
+  
+  .heading-text {
+	float: left;
+	width: 100%;
+	color: #154c79;
+	font-size: 35px;
+	font-weight: bold;
+	margin: 10px;
+	padding-top: 15px;
+  }
+  
+  .sub-topics-block {
+	float: left;
+	margin-left: 50px;
+	width: 24%;
+  }
+  
+  .learn-more-text {
+	color: #6a6967;
+	font-size: 25px;
+	font-weight: bold;
+  }
+  
+  .sub-menu li {
+	color: #154c79;
+	text-decoration:solid;
+	font-weight: bold;
+	font-size: 18px;
+	padding-bottom: 3px;
+  }
+  
+  
+  /* styles for the nav element */
+  
+  .navbar {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+	margin-top: -1.0em;
+  }
+  
+  .subnav {
+	padding: 0;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+  }
+  
+  .subnavbtn {
+	background-color: #e79238;
+	border-radius: 0.5em;
+	box-shadow: 0.5em 0.5em 0.5em #4c4f4d;
+	list-style-type:none;
+	margin: 0.3em;
+	padding: 0.4em;
+	float: left;
+	width: 31%;
+  }
+  
+  .subnavbtn a {
+	color: white;
+	text-decoration: none;
+  }
+  
+  .myexperiences_table {
+	border: 0.1em solid #000000;
+	  border-collapse: collapse;
+	  margin-left: auto;
+	  margin-right: auto;
+	  width: 100%;
+	}
+  
+	th, td {
+	  border: 0.1em solid #000000;
+	  padding: 1em;
+	  font-size: 1.1em;
+	}
+  
+	.h2-string-center {
+	  text-align: center;
+	  color: #154c79;
+	  margin-top: 2em;
+	  text-decoration: underline;
+	}
+  
+	article {
+	  background-color: #154c79;
+	  float: left;
+	  padding: 0.7%;
+	  text-align: center;
+	  margin-left: 5em;
+	  margin-top: 1em;
+	  margin-bottom: 1em;
+	  width: 40%;
+	  border-radius: 20px;
+	}
+  
+	/* styles for teh images inside the article */
+	article img {
+	  width: 30%;
+	  height: 30%;
+	  margin-top: 1em;
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  
+	/* styles for the paragraphs inside the article */
+	article p {
+	  color: #000000;
+	  margin-top: 2%;
+	  padding: 1%;
+	  text-align: left;
+	}
+  
+	/* styles for the ul inside the article */
+	article ul {
+	  text-align: left;
+	}
+  
+  
+  .footerdiv {
+	background-color: #333;
+	float: left;
+	width: 100%;
+	height: 100px;
+  }
+  
+  footer {
+	font-family: "Times New Roman";
+	font-size: 0.7em;
+	text-align: center;
+	margin-top: 3em;
+	color: #ffffff;
+  }
+  
+  footer a {
+	color: #ffffff;
+	text-decoration: none;
+  }
